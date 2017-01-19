@@ -1,0 +1,16 @@
+1) a text file. one query in each line
+2) this file is read line by line and parsed into a list called queries
+3) queries is converted itno queriesencoded
+4) iterate over queriesencoded and fire a request. You receive 2 things - response status and response text which is a json object.
+Add response status to csv. Parse the json response to extract confidence entity and value and add them to csv.
+Finally, response text (json object) is appended in a separate file with every 2 consecutive json objects separated by a comma. This file is responsedump.txt. It will be used to store comma separated json responses as raw data dump of entire query set.
+6) Convert responsedump.txt into responsedump.json. It already has comma separated json objects. Enclose everything in square brackets and you have an array. Add {"data":[ to the beginning of the fileand ]} at the end, and now you have a full fledged json object
+with 1 key data which contains our response dump (array of json responses)
+
+
+NOTE - dump.txt contains comma separated json resposne objects.
+Remove the last comma from it.
+Add {"data":[    in the beginning
+Add ]} in the end
+
+and this dump has now become a new json object that can be used further

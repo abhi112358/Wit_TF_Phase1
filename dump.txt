@@ -1,0 +1,548 @@
+{
+  "msg_id" : "c3d8524a-6fde-4edc-8041-eca8d48088b5",
+  "_text" : "I need some help\n",
+  "entities" : {
+    "contact" : [ {
+      "confidence" : 0.9385275710320234,
+      "type" : "value",
+      "value" : "I",
+      "suggested" : true
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9906882413135771,
+      "value" : "help"
+    } ]
+  }
+},{
+  "msg_id" : "fd3e114c-abfe-415c-9e62-7fcac7d615ce",
+  "_text" : "Display question no. 23\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9738686432783674,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 23,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9678421182639537,
+      "value" : "goto"
+    } ]
+  }
+},{
+  "msg_id" : "769f0625-a08c-4f4f-9105-5ee44ce06280",
+  "_text" : "Skip this question",
+  "entities" : {
+    "which" : [ {
+      "confidence" : 0.9127872766162375,
+      "type" : "value",
+      "value" : "this "
+    } ],
+    "object" : [ {
+      "confidence" : 0.9976227404000303,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9991153699335535,
+      "value" : "skip"
+    } ]
+  }
+},{
+  "msg_id" : "f9b59a75-87fe-4ce8-aa33-f28ab440a8fd",
+  "_text" : "I need some help\n",
+  "entities" : {
+    "contact" : [ {
+      "confidence" : 0.9385275710320234,
+      "type" : "value",
+      "value" : "I",
+      "suggested" : true
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9906882413135771,
+      "value" : "help"
+    } ]
+  }
+},{
+  "msg_id" : "f2058b45-fdc0-402f-ab9f-4890bdf24153",
+  "_text" : "Display question no. 23\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9738686432783674,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 23,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9678421182639537,
+      "value" : "goto"
+    } ]
+  }
+},{
+  "msg_id" : "4a19b23f-a828-4d2c-98dd-9f4c5ecf96a8",
+  "_text" : "Skip this question\n",
+  "entities" : {
+    "which" : [ {
+      "confidence" : 0.9127872766162375,
+      "type" : "value",
+      "value" : "this "
+    } ],
+    "object" : [ {
+      "confidence" : 0.9976227404000303,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9990160862970268,
+      "value" : "skip"
+    } ]
+  }
+},{
+  "msg_id" : "e30abbf5-b176-4974-9915-f63130d9dbd1",
+  "_text" : "Hello\n",
+  "entities" : {
+    "intent" : [ {
+      "confidence" : 0.8603090953056411,
+      "value" : "greeting"
+    } ]
+  }
+},{
+  "msg_id" : "16ebf598-cc69-4e26-89c7-3ddc1b6a9a95",
+  "_text" : "Hi, My name is Abhimanyu Sood\n",
+  "entities" : {
+    "contact" : [ {
+      "confidence" : 0.8682505789424383,
+      "type" : "value",
+      "value" : "Abhimanyu",
+      "suggested" : true
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9969248551722334,
+      "value" : "introduction"
+    } ]
+  }
+},{
+  "msg_id" : "7f5bca83-3d73-497b-9b04-c1b0587bcff8",
+  "_text" : "I want to start the test\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9930948157667261,
+      "type" : "value",
+      "value" : "test"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9934536744509551,
+      "value" : "start"
+    } ]
+  }
+},{
+  "msg_id" : "3686220c-26c4-4c38-9bfb-c83ee0de6fcc",
+  "_text" : "I want to quit the test\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9934093167366281,
+      "type" : "value",
+      "value" : "test"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9921036264616762,
+      "value" : "quit"
+    } ]
+  }
+},{
+  "msg_id" : "d9e19f00-07e8-4e83-b861-61ffabd694b2",
+  "_text" : "I want to skip this question\n",
+  "entities" : {
+    "which" : [ {
+      "confidence" : 0.8998986366416544,
+      "type" : "value",
+      "value" : "this "
+    } ],
+    "object" : [ {
+      "confidence" : 0.9979954784344012,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9977574701795833,
+      "value" : "skip"
+    } ]
+  }
+},{
+  "msg_id" : "f8805a15-e4c9-4ce3-8499-2e987778bef2",
+  "_text" : "I need some hint with question number 11\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9981514733310695,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 11,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9375647551992029,
+      "value" : "hint"
+    } ]
+  }
+},{
+  "msg_id" : "c4047e63-d2ae-4dae-9536-683ff58e62ab",
+  "_text" : "Please help me with quiestion number 4 on the topic Programming Languages",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9420603570283752,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 4,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9968304321592605,
+      "value" : "help"
+    } ]
+  }
+},{
+  "msg_id" : "2e32ad31-dd3c-4163-be10-b97fab8c0f10",
+  "_text" : "I need some help\n",
+  "entities" : {
+    "contact" : [ {
+      "confidence" : 0.9385275710320234,
+      "type" : "value",
+      "value" : "I",
+      "suggested" : true
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9906882413135771,
+      "value" : "help"
+    } ]
+  }
+},{
+  "msg_id" : "debd2100-0ad5-41e6-8033-1f30a395f6a0",
+  "_text" : "Display question no. 23\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9738686432783674,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 23,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9678421182639537,
+      "value" : "goto"
+    } ]
+  }
+},{
+  "msg_id" : "804d285d-47e2-408c-9424-07b68de64a4c",
+  "_text" : "Skip this question\n",
+  "entities" : {
+    "which" : [ {
+      "confidence" : 0.9127872766162375,
+      "type" : "value",
+      "value" : "this "
+    } ],
+    "object" : [ {
+      "confidence" : 0.9976227404000303,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9990160862970268,
+      "value" : "skip"
+    } ]
+  }
+},{
+  "msg_id" : "6d63ae2a-ba35-4878-835e-72f7867d7ec2",
+  "_text" : "Hello\n",
+  "entities" : {
+    "intent" : [ {
+      "confidence" : 0.8603090953056411,
+      "value" : "greeting"
+    } ]
+  }
+},{
+  "msg_id" : "5bb06188-b20f-456e-bb51-4c21c08d8d36",
+  "_text" : "Hi, My name is Abhimanyu Sood\n",
+  "entities" : {
+    "contact" : [ {
+      "confidence" : 0.8682505789424383,
+      "type" : "value",
+      "value" : "Abhimanyu",
+      "suggested" : true
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9969248551722334,
+      "value" : "introduction"
+    } ]
+  }
+},{
+  "msg_id" : "4a1b3bf4-4191-44b9-9a8e-ff006dfcd405",
+  "_text" : "I want to start the test\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9930948157667261,
+      "type" : "value",
+      "value" : "test"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9934536744509551,
+      "value" : "start"
+    } ]
+  }
+},{
+  "msg_id" : "4e07dcf5-af06-45ab-a2d7-facf943494ff",
+  "_text" : "I want to quit the test\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9934093167366281,
+      "type" : "value",
+      "value" : "test"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9921036264616762,
+      "value" : "quit"
+    } ]
+  }
+},{
+  "msg_id" : "95872a47-b64b-4b1a-83ae-52761b21000c",
+  "_text" : "I want to skip this question\n",
+  "entities" : {
+    "which" : [ {
+      "confidence" : 0.8998986366416544,
+      "type" : "value",
+      "value" : "this "
+    } ],
+    "object" : [ {
+      "confidence" : 0.9979954784344012,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9977574701795833,
+      "value" : "skip"
+    } ]
+  }
+},{
+  "msg_id" : "81352ec0-0975-4d43-9ef2-d0b78e5d0700",
+  "_text" : "I need some hint with question number 11\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9981514733310695,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 11,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9375647551992029,
+      "value" : "hint"
+    } ]
+  }
+},{
+  "msg_id" : "6a16cd69-0feb-476d-9811-626ae32237da",
+  "_text" : "I need help with option 4 on data structures\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9307258162736276,
+      "type" : "value",
+      "value" : "option "
+    }, {
+      "confidence" : 0.7802319569001435,
+      "type" : "value",
+      "value" : "Data Structures"
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 4,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9995373059639721,
+      "value" : "help"
+    } ]
+  }
+},{
+  "msg_id" : "f6fba22c-3728-4e62-b776-6cb7699f6f9e",
+  "_text" : "I need some help\n",
+  "entities" : {
+    "contact" : [ {
+      "confidence" : 0.9385275710320234,
+      "type" : "value",
+      "value" : "I",
+      "suggested" : true
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9907682071725094,
+      "value" : "help"
+    } ]
+  }
+},{
+  "msg_id" : "7e71f54a-84f7-4f96-beff-8f113ecf6db9",
+  "_text" : "Display question no. 23\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9750788508632515,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 23,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9680109472724293,
+      "value" : "goto"
+    } ]
+  }
+},{
+  "msg_id" : "df745282-522e-447c-b30d-1b728600005f",
+  "_text" : "Skip this question\n",
+  "entities" : {
+    "which" : [ {
+      "confidence" : 0.9129140053756322,
+      "type" : "value",
+      "value" : "this "
+    } ],
+    "object" : [ {
+      "confidence" : 0.9977704081541239,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9990124977766002,
+      "value" : "skip"
+    } ]
+  }
+},{
+  "msg_id" : "5072abd4-c60f-44ac-901d-658bccd2c0a4",
+  "_text" : "Hello\n",
+  "entities" : {
+    "intent" : [ {
+      "confidence" : 0.8604141610732949,
+      "value" : "greeting"
+    } ]
+  }
+},{
+  "msg_id" : "56cfdaba-9906-4b72-8d76-229ca0404b46",
+  "_text" : "Hi, My name is Abhimanyu Sood\n",
+  "entities" : {
+    "contact" : [ {
+      "confidence" : 0.8682505789424383,
+      "type" : "value",
+      "value" : "Abhimanyu",
+      "suggested" : true
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9969211962829171,
+      "value" : "introduction"
+    } ]
+  }
+},{
+  "msg_id" : "f7c6290f-78a2-410f-9b9c-9947da574b96",
+  "_text" : "I want to start the test\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.993359951513697,
+      "type" : "value",
+      "value" : "test"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9935110680199158,
+      "value" : "start"
+    } ]
+  }
+},{
+  "msg_id" : "fb3824ac-0d87-4299-9528-236c1d8d3a12",
+  "_text" : "I want to quit the test\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.993656481226626,
+      "type" : "value",
+      "value" : "test"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.992086797231061,
+      "value" : "quit"
+    } ]
+  }
+},{
+  "msg_id" : "d7853555-b633-45ce-ab90-7a4d433ef562",
+  "_text" : "I want to skip this question\n",
+  "entities" : {
+    "which" : [ {
+      "confidence" : 0.9007719256459212,
+      "type" : "value",
+      "value" : "this "
+    } ],
+    "object" : [ {
+      "confidence" : 0.9981263918527729,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9977513316877586,
+      "value" : "skip"
+    } ]
+  }
+},{
+  "msg_id" : "55b95960-27da-4d15-854d-2a21723ed449",
+  "_text" : "I need some hint with question number 11\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.9978854490162089,
+      "type" : "value",
+      "value" : "question "
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 11,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9371774281094397,
+      "value" : "hint"
+    } ]
+  }
+},{
+  "msg_id" : "13164aa8-23e6-4263-bcf4-5d1cf8404f79",
+  "_text" : "I need help with option 4 on data structures\n",
+  "entities" : {
+    "object" : [ {
+      "confidence" : 0.974793653533667,
+      "type" : "value",
+      "value" : "option "
+    }, {
+      "confidence" : 0.9577646900921587,
+      "type" : "value",
+      "value" : "Data Structures"
+    } ],
+    "number" : [ {
+      "confidence" : 1,
+      "value" : 4,
+      "type" : "value"
+    } ],
+    "intent" : [ {
+      "confidence" : 0.9996507557955794,
+      "value" : "help"
+    } ]
+  }
+},

@@ -1,0 +1,25 @@
+QUERY,RESPONSE STATUS,QUERY'S MEAN 'CONFIDENCE,QUERY'S 'STANDARD DEVIATION,RECOGNIZED ENTITIES
+
+"I need some help
+",200,0.9646478891022664,0.026120318070242954,"(contact, I) : 0.938527571032","(intent, help) : 0.990768207173"
+"Display question no. 23
+",200,0.98102993271189354,0.013720699811568222,"(object, question ) : 0.975078850863","(intent, goto) : 0.968010947272","(number, 23) : 1"
+"Skip this question
+",200,0.96989897043545203,0.040297645744379308,"(object, question ) : 0.997770408154","(intent, skip) : 0.999012497777","(which, this ) : 0.912914005376"
+"Hello
+",200,0.86041416107329494,0.0,"(intent, greeting) : 0.860414161073"
+"Hi, My name is Abhimanyu Sood
+",200,0.93258588761267769,0.064335308670239399,"(contact, Abhimanyu) : 0.868250578942","(intent, introduction) : 0.996921196283"
+"I want to start the test
+",200,0.99343550976680639,7.5558253109397899e-05,"(object, test) : 0.993359951514","(intent, start) : 0.99351106802"
+"I want to quit the test
+",200,0.99287163922884347,0.00078484199778250385,"(object, test) : 0.993656481227","(intent, quit) : 0.992086797231"
+"I want to skip this question
+",200,0.96554988306215106,0.045805188882163374,"(object, question ) : 0.998126391853","(intent, skip) : 0.997751331688","(which, this ) : 0.900771925646"
+"I need some hint with question number 11
+",200,0.97835429237521632,0.029129234393616765,"(object, question ) : 0.997885449016","(intent, hint) : 0.937177428109","(number, 11) : 1"
+"I need help with option 4 on data structures
+",200,0.99148146977641538,0.011800929372790522,"(object, option ) : 0.974793653534","(intent, help) : 0.999650755796","(number, 4) : 1"
+
+QUERYSET'S MEAN CONFIDENCE = 0.963026963515
+QUERYSET'S MEAN' STDEV = 0.0232069725196
